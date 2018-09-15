@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>牛十一的小屋</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="description" content="前端程序猿"/>
+    <meta name="author" content="niu"/>
+    <meta name="keywords" content="求职 前端"/>
+    <meta name="contact" content="tel 13782517625 e-mail:240866343@qq.com"/>
+
+    <link rel="shortcut icon" href="images/favicon2.ico"/>
+
+    <!--lib css-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+     <!-- <link rel="stylesheet" href="css/background.css"> -->
+      <!-- <link rel="stylesheet" href="css/item.css"> -->
+
+    <!--personal css-->
+    <link rel="stylesheet" href="css/index.css"/>
+    <style type="text/css" media="screen">
+     body{cursor: pointer;}
+        #c{
+            position: absolute;
+            z-index: -2;
+            top:0;
+            left: 0;
+        }
+        #mouse{
+             position: fixed;
+            /*z-index: -2;*/
+            top:0;
+            left: 0;
+        }
+
+    </style>
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-default resume">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand EngName" data-menuanchor="page1" href="#page1"  style="color: #fff">牛 十 一</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="menu">
+                <li data-menuanchor="page2" class="active">
+                    <a href="#page2">基本资料</a>
+                </li>
+                <li data-menuanchor="page3">
+                    <a href="#page3">专业技能</a>
+                </li>
+                <li data-menuanchor="page4">
+                    <a href="#page4">工作经历</a>
+                </li>
+                <li data-menuanchor="page5">
+                    <a href="#page5">项目经验</a>
+                </li>
+                <li data-menuanchor="page6">
+                    <a href="#page6">自我评价</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="guns sky">
+    <div class="clouds_one"></div>
+    <div class="clouds_two"></div>
+    <div class="clouds_three"></div>
+</div>
+<div class="pure">
+
+</div>
+<div id="resume">
+    <div class="section item-1" data-anchor="page1">
+        <div class="row word">
+            <span class="resume-hide">前端工程师</span>
+            <span class="hidden-xs resume-hide">简历</span>
+            <span class="col-xs-12 hidden-sm hidden-md hidden-lg resume-hide">简历</span>
+
+            <p class="motto resume-hide hinge-sty" style="position: relative">钟情技术，热爱生活</p>
+            <a href="#" class="next-page ">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+        </div>
+
+        <div class="corner1 corner">
+            <img src="images/p1.png" alt=""/>
+        </div>
+        <div class="corner2 corner">
+            <img src="images/p2.png" alt=""/>
+        </div>
+        <div class="corner3 corner">
+            <img src="images/p3.png" alt=""/>
+        </div>
+        <div class="corner4 corner">
+            <img src="images/p4.png" alt=""/>
+        </div>
+
+    </div>
+    <div class="section item-2" data-anchor="page2">
+        <div class="container">
+            <h class='hidden-xs hidden-sm page2-title'>基本资料</h>
+            <div class="row page4">
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="./images/glass.png" alt="">
+                    <h4 style="color: #fff">基本信息</h4>
+                    <p style="color: #fff">
+                        姓名: 牛十一  &nbsp; 男
+                        <br>
+                        年龄: 22岁 籍贯：河南
+                    </p>
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="./images/hat.png" alt="">
+                    <h4 style="color: #fff">毕业院校</h4>
+                    <p style="color: #fff">
+                        河南工学院
+                    </p>
+
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="./images/book.png" alt="">
+                    <h4 style="color: #fff">专业</h4>
+                    <p style="color: #fff">
+                       计算机应用技术
+                        <br>
+                        专业技能 编程
+                    </p>
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="./images/tel.png" alt="">
+                    <h4 style="color: #fff">联系方式</h4>
+                    <p style="color: #fff">
+                        邮箱 240866343@qq.com
+                        <br>
+                        13782517625
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section item-3" data-anchor="page3">
+        <div class="container">
+            <div class="img-3 hidden-xs">
+                <img src="./images/20.png" alt="">
+            </div>
+            <div class="bg-img hidden-xs hidden-sm">
+                <img src="./images/19.png" alt="">
+            </div>
+            <div class="sm-img fly hidden-xs hidden-sm">
+                <img src="./images/18.png" alt="">
+            </div>
+
+
+            <div class="skill-introduce">
+                <div class="media">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="./images/tv8.png" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">PC端</h4>
+                        <p style="color: #fff">
+                            熟练使用 Html5 Css3 JavaScript，能够合理完成web端或者移动端页面的编写和维护，<br>
+                            思路清晰，结构完整，易于维护和持久化开发，能处理主流浏览器兼容问题。
+                            熟练使用原生js, 了解js面向对象原理，闭包以及原型结构，能够合理利用面向对象以及模块化开发,并且能适当完成框架封装。熟练使用 jQuery，并能完成相关项目。
+                            <br>熟悉animation fullpage jquery-ui template lazyload jQeasing masonry等实用插件的应用,轮播图，tab栏，瀑布流，延迟加载，全屏滚动等等常用功能的实现
+                            <br>掌握 Ajax交互原理，根据后台接口能够合理完成前后台交互，数据的增删改查
+
+
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="./images/apple6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading" style="color: #fff">手机端</h4>
+                        <p style="color: #fff">熟练使用vue.js，Frozen ui，mui等移动框架进行移动页面的开发
+                            <br>掌握 移动端编程，会基于流式布局以及 响应式布局 开发基于移动端的页面。
+                            <br>熟练使用Bootstrap 框架以及轻量级框架 vue 的使用。
+                        </p>
+
+                    </div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="./images/baterry10.png" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading" style="color: #fff">其他</h4>
+                        <p style="color: #fff">掌握vue框架原理，可以完成无需刷新的单页面应用。
+                            <br>了解Node.js 的工作原理会使用npm、具有丰富小程序开发经验
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills hidden-xs">
+                <span class="subject-9"  style="color: #fff" >vue</span>
+                <span class="subject-10"  style="color: #fff">小程序</span>
+                <span class="subject-2"  style="color: #fff">Bootstrap</span>
+                <span class="subject-3"  style="color: #fff">PHP</span>
+                <span class="subject-4"  style="color: #fff">jQuery</span>
+                <span class="subject-5"  style="color: #fff">移动端</span>
+                <span class="subject-6"  style="color: #fff">CSS3</span>
+                <span class="subject-7"  style="color: #fff">响应式</span>
+                <span class="subject-8"  style="color: #fff">Nodejs</span>
+                <span class="subject-1"  style="color: #fff">HTML5</span>
+            </div>
+        </div>
+    </div>
+    <div class="section item-4" id='item-4' data-anchor="page4">
+        <div class="container">
+            <span class='title hidden-xs  hidden-sm' style='display: inline-block'>个人经历</span>
+            <span class='sign col-xs-12 hidden-xs  hidden-sm' style='font-size: 20px;color: #fff'>热爱技术,专注用户体验</span>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./images/jl1.jpg" class=' img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>河南工学院</h3>
+                            <p>计算机应用技术</p>
+                            <p>主要学习编程语言java,php等</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./images/jl2.jpg" class='img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>竹叶科技</h3>
+                            <p>前端工程师</p>
+                            <p>JavaScript html5，php，小程序开发</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./images/jl3.jpg" class='img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>仁慧科技</h3>
+                            <p>前端工程师</p>
+                            <p>互联网电商行业的网站开发，移动端开发，以及接部分外包项目</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./images/jl4.jpg" class='img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>北京中科大洋信息</h3>
+                            <p>web前端工程师</p>
+                            <p>媒资系统和新媒体系统以及全媒体平台web页面的开发</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section item-5" data-anchor="page5">
+        <!--第一屏-->
+        <div class="slide hidden-xs">
+            <div class="container" id='container-img'>
+                <div class="row">
+                    <div class="portfolio-items">
+                        <div class="col-sm-6 col-md-3 col-lg-3 web">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='#' target='_blank' title="智能家居"></a>智能家居</h4>
+                                        <small>技术：html+css+js</small>
+                                        <i class="fa fa-search"></i></div>
+                                    <img src="images/01.jpg" class="img-responsive" alt="智能家居">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="http://www.ourangel.cn/" target='_blank' title="安杰">pc商城</a></h4>
+                                        <small>技术：HTML+CSS+JQuery</small>
+                                    </div>
+                                    <img src="images/02.jpg" class="img-responsive" alt=""></div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="http://wealth.jrq.com" target='_blank' title="金融圈">乐享生活</a></h4>
+                                        <small>技术：Bootstrap+JQuery</small>
+                                    </div>
+                                    <img src="images/03.jpg" class="img-responsive" alt="金融圈"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='javascript:;' target='_blank' title=""></a>电商活动页面</h4>
+                                        <small>技术：Bootstrap+JQuery</small>
+                                    </div>
+                                    <img src="images/04.jpg" class="img-responsive" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='javascript:;' target='_blank' title=""></a>装饰用</h4>
+                                        <small>技术：HTML+CSS+JQuery</small>
+                                    </div>
+                                    <img src="images/05.jpg" class="img-responsive" alt="装饰用">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="javascript:;" target='_blank' title="D"></a>装饰用</h4>
+                                        <small>技术：Bootstrap+JQuery</small>
+                                    </div>
+                                    <img src="images/06.jpg" class="img-responsive" alt="装饰用"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="javascript:;" target='_blank' title="个人博客">个人博客</a></h4>
+                                        <small>技术：HTMl+CSS+JS+Wordpress</small>
+                                    </div>
+                                    <img src="images/07.jpg" class="img-responsive" alt="个人博客"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='javascript:;' target='_blank' title="软装大师">软装大师 </a></h4>
+                                        <small>技术：Bootstrap+JQuery</small>
+                                    </div>
+                                    <img src="images/08.jpg" class="img-responsive" alt="软装大师">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二屏-->
+        <div class="slide">
+            <div class="rotator">
+                <div id="rot1">
+                    <!-- <img src="" width="800" height="300" class="bg" alt=""/> -->
+                    <div class="heading">
+                        <h1></h1>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+                <ul id="rotmenu">
+                    <li>
+                        <a href="#">Flappy Bird</a>
+                        <div style="display:none;">
+                            <div class="info_image">1.jpg</div>
+                            <div class="info_heading">Flappy Bird</div>
+                            <div class="info_description">
+                                通过面向对象封装方法，利用canvas绘制。
+                                手机可以玩。
+                                <!-- <br><a href="http://chenjichuan.cn/bird.html" target= _blank class="more">play</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">cart</a>
+                        <div style="display:none;">
+                            <div class="info_image">2.jpg</div>
+                            <div class="info_image">Add to cart</div>
+                            <div class="info_description">
+                                电商的添加到购物车模型，符合大部分电商场景
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Fall</a>
+                        <div style="display:none;">
+                            <div class="info_image">3.jpg</div>
+                            <div class="info_description">
+                               瀑布流布局，同时具备响应式，延迟加载等提高用户体验场景。
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">view</a>
+                        <div style="display:none;">
+                            <div class="info_image">4.jpg</div>
+                            <div class="info_heading">view</div>
+                            <div class="info_description">
+                                有趣儿的小东西，添加大图后可以实现全景浏览
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Full page</a>
+                        <div style="display:none;">
+                            <div class="info_image">5.jpg</div>
+                            <div class="info_description">
+                                主流的商家活动推广页面应用场景，全屏浏览同时，分页分屏展示。
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="section item-6" data-anchor="page6">
+        <h1>Focus Me</h1>
+        <div class="word">
+        <p>
+            有责任，工作踏实，性格开朗乐观，积极上进。
+        </p>
+        </div>
+    <div class="word">
+        <p>
+           易和人相处，拥有良好的亲和力。<br>
+        </p>
+    </div>
+    <div class="word">
+        <p>
+            喜欢js，非常热爱编程，喜欢钻研新的技术，</br>具有很强的自学能力和良好的学习方法，喜欢研究各种新的框架。
+        </p>
+    </div>
+        <div class="top"></div>
+        <div class="foot"></div>
+    </div>
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery.fullPage.min.js"></script>
+<script src="./js/jquery.easing.1.3.js"></script>
+<script src="./js/jquery.isotope.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/handler.js"></script>
+<script src="./js/resumeEnter.js"></script>
+
+
+<div id="fp-nav" class="right hidden-xs" style="color: rgb(0, 0, 0); margin-top: -69px;">
+    <ul>
+        <!-- <li data-toggle="tooltip" data-placement="left" title="" data-original-title="个人简历">
+            <a href="#page1" class=""><span></span></a></li>
+        <li data-toggle="tooltip" data-placement="left" title="" data-original-title="基本资料">
+            <a href="#page2"><span></span></a></li>
+        <li data-toggle="tooltip" data-placement="left" title="" data-original-title="专业技能">
+            <a href="#page3"><span></span></a></li>
+        <li data-toggle="tooltip" data-placement="left" title="" data-original-title="工作经历">
+            <a href="#page4"><span></span></a></li> -->
+       <!--  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="项目经验">
+            <a href="#page5"><span></span></a></li>
+        <li data-toggle="tooltip" data-placement="left" title="" data-original-title="自我评价">
+            <a href="#page6"><span></span></a>
+        </li> -->
+    </ul>
+</div>
+
+
+<!-- 动画部分 -->
+<canvas id="c">
+    
+</canvas>
+   <canvas id="mouse" width="300" height="300" ></canvas>
+
+<!-- 鼠标跟随粒子效果 -->
+ <script type="text/javascript">
+            var canvas = document.getElementById('mouse');
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                     console.log(window.innerHeight);
+
+            (function(){
+                var c = document.querySelector("#mouse");
+                var ctx = c.getContext("2d");
+                //基点兑对象
+                function Circle(color,count){
+                    this.x=0;//基点的x坐标
+                    this.y=0;//基点的y坐标
+                    this.r = 20;//基点半径
+                    this.color = color;//基点的颜色
+                    this.shadowCount = count;//基点散发的粒子个数
+                    this.shadows = [];//基点散发的粒子对象集合
+                    //初始化粒子的方法
+                    this._circle = function(){
+                        for(var i=0;i<this.shadowCount;i++){
+                            this.shadows.push(new Shadow());
+                        }
+                    }
+                    this._circle();
+                }
+                //基点对象渲染方法
+                Circle.prototype.rounder = function(x,y){
+                    this.x = x;
+                    this.y = y;
+                    for(var i=0;i<this.shadows.length;i++){
+                        this.shadows[i].initShadow(this);
+                    }
+                    ctx.beginPath();
+                    ctx.fillStyle = this.color;
+                    ctx.arc(this.x,this.y,this.r,0,Math.PI*2,false);
+                    ctx.fill();
+                }
+                //粒子对象
+                function Shadow(obj){
+                    this.jg = Math.random()*100;//渲染粒子的间隔
+                    this.x = -1000;//粒子的x坐标
+                    this.y = -1000;//粒子的y坐标
+                    this.r = -1000;//粒子的半径
+                    var R = parseInt(Math.random()*256);//颜色的随机数
+                    var G = parseInt(Math.random()*256);//颜色的随机数
+                    var B = parseInt(Math.random()*256);//颜色的随机数
+                    this.color = "rgb("+R+","+G+","+B+")";//粒子颜色
+                    this.fadeR = 50;//粒子的消失距离
+                    //粒子移动的角度的弧度值
+                    var jd = Math.PI/180*(parseInt(Math.random()*360)) 
+                    //根据粒子角度来计算得到的粒子x与y方向的速度
+                    this.sx = Math.sin(jd)*this.fadeR/50;
+                    this.sy = Math.cos(jd)*this.fadeR/50;
+                }
+                //粒子对象渲染方法
+                Shadow.prototype.initShadow=function(obj){
+                    //由于每个粒子对象是同时绘制，所以定义随机间隔来实现时间差效果
+                    if(this.jg<0){
+                        //当数据初始化之后就不再重新对影子赋值
+                        if(this.x==-1000){
+                            this.x = obj.x;
+                        }
+                        if(this.y==-1000){
+                            this.y = obj.y;
+                        }
+                        if(this.r==-1000){
+                            this.r = obj.r;
+                        }
+                        //只有在对象的半径是正数的时候渲染影子
+                        if(this.r>0){
+                            ctx.beginPath();
+                            ctx.fillStyle = this.color;
+                            ctx.arc(this.x,this.y,this.r,0,Math.PI*2,false);
+                            this.x+=this.sx;
+                            this.y+=this.sy;
+                            this.r-=this.fadeR/300;
+                            ctx.fill();
+                        }else{
+                            //当半径失效之后调用初始化方法让粒子重新出现实现单个对象的不规则状态循环
+                            this.init();
+                        }
+                    }else{
+                        this.jg--;
+                    }
+                }
+                //粒子结束后重新初始化
+                Shadow.prototype.init = function(){
+                    this.jg = Math.random()*30;
+                    this.x = -1000;
+                    this.y = -1000;
+                    this.r = -1000;
+                    var R = parseInt(Math.random()*256);
+                    var G = parseInt(Math.random()*256);
+                    var B = parseInt(Math.random()*256);
+                    this.color = "rgb("+R+","+G+","+B+")";
+                    this.fadeR = 300;
+                    var jd = Math.PI/180*(parseInt(Math.random()*360))
+                    this.sx = Math.sin(jd)*this.fadeR/100;
+                    this.sy = Math.cos(jd)*this.fadeR/100;
+                }
+                //实例化本体对象
+                var c1 = new Circle("rgba(100,230,140,0.5)",100);
+                var x = 0;
+                var y = 0;
+                //动画启动方法
+                function startFill(){
+                    ctx.clearRect(0,0,c.width,c.height)
+                    c1.rounder(x,y);
+                }
+                //鼠标跟踪方法
+                c.addEventListener("mousemove",function(e){
+                    x = e.offsetX;
+                    y = e.offsetY;
+                });
+                //开启定时器
+                window.setInterval(startFill,17);
+            })();
+            
+        </script>
+
+
+
+ 
+
+<!-- 背景粒子效果 -->
+<script>
+    ((c)=>{
+    let $ = c.getContext('2d'),
+            w = c.width = window.innerWidth,
+            h = c.height = window.innerHeight,
+            pi2 = Math.PI*2,
+            random = t=>Math.random()*t,
+            binRandom = (f)=>Math.random()<f,
+          arr = new Array(600).fill().map((p)=>{
+                return {
+                    p: {x: random(w), y: random(h)},
+                    v: {x: random(.5) * (binRandom(.5)?1:-1), y: random(.5) * (binRandom(.5)?1:-1)},
+                    s: random(1)+2, 
+                    o: random(1)+.3
+                }
+            });
+    function draw(){
+        (h !== innerHeight || w!==innerWidth) && (w=c.width=innerWidth,h=c.height=innerHeight);
+         $.fillStyle="#222";
+        $.fillRect(0,0,w,h);
+        arr.forEach(p=>{
+            p.p.x+=p.v.x;
+            p.p.y+=p.v.y;
+            if(p.p.x > w || p.p.x < 0) p.v.x *=-1;
+            if(p.p.y > h || p.p.y < 0) p.v.y *=-1;
+            $.beginPath();
+            $.arc(p.p.x,p.p.y,p.s,0,pi2);
+            $.closePath();
+            $.fillStyle = "rgba(255,255,255,"+p.o+")";
+            $.fill();
+        })
+        requestAnimationFrame(draw)
+    }
+    draw();
+})(c)
+
+
+</script>
+
+
+</body>
+</html>
+
